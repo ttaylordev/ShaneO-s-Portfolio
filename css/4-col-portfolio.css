@@ -4,15 +4,40 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+
+
+
+
 body {
     padding-top: 70px;
-    background-color: #625E4D; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    background-color: #625e4d; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
 .portfolio-item {
     margin-bottom: 25px;
+   
 }
 
 footer {
     margin: 50px 0;
+    background-color: #4D625E;
 }
+
+.navbar {
+	background-color: #4D625E;
+	height: 7%;
+}
+
+img {
+	border-radius: 5px 20px 5px;
+	box-shadow: 10px 10px 5px #454337;
+
+}
+
+.portfolio-item:hover > a > img {
+	height: 300px;
+	width: 100%;
+	position: absolute;
+	z-index: 3;
+}
+
