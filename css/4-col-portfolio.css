@@ -10,14 +10,17 @@ body {
     padding-top: 70px;
     background-color: #625e4d; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
+    /*cursor:url(/images/other/tatgun.png), auto;*/
+/*
+a:hover
+ cursor:url(/images/other/tatgun.png), auto;*/
 
-.galleryBody{
-    background-color: blue;
-}
+
+
+/*make sure to delete this once making the mouse active*/
 
 .portfolio-item {
     margin-bottom: 25px;
-
 }
 
 footer {
@@ -38,7 +41,6 @@ img {
 }
 
 .portfolio-item:hover > a > img {
-	height: 300px;
 	width: 100%;
 	position: absolute;
 	z-index: 3;
@@ -50,4 +52,11 @@ img {
 
 .page-header > small {
     color: #dfdbdc;
+}
+
+.something {
+    width: 100%;
+    height: 150px;
+    background-color: teal;
+    margin-top: -70px;
 }
