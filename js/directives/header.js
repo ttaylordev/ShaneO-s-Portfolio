@@ -3,7 +3,7 @@ angular.module("portfolio")
         return {
             templateUrl: "views/header.html",
             restrict: "E",
-
+            controller: 'tattoosCtrl'
         }
 
 
